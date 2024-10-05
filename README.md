@@ -1,4 +1,4 @@
-# HW01: Functions and I/O in C++
+# HW01: Functions and file I/O in C++
 
 Author: Firstname Lastname
 

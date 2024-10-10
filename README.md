@@ -1,7 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Fx_AAWN7)
 # HW01: Functions and file I/O in C++
 
-Author: Firstname Lastname
+Author: Yinuo Peng
 
 ## Part 0: `git` basics
 1. Update the author line beneath the title of the assignment from `Firstname Lastname` to be your first and last name.

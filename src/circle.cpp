@@ -1,7 +1,6 @@
 // implement circle.cpp functions here.
 #include "../include/circle.h"
 #include <iostream>
-#include <cmath>
 #include <numbers>
 
 using namespace std;

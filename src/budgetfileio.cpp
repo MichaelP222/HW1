@@ -15,7 +15,6 @@ double utilities = 0.0;
 double groceries = 0.0;
 double entertainment = 0.0;
 double transportation = 0.0;
-double array1[6] = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
 
 string readExpensesCSV(const string& inputFilename,
     double& grossIncome,
@@ -43,17 +42,15 @@ string readExpensesCSV(const string& inputFilename,
         getline(currentline, date, ',');
 
         if (category == "Rent"){
-            array1[0] = stod(amount_str);
+            rent = stod(amount_str);
         }else if (category == "Utilities"){
-            array1[1] = stod(amount_str);
+            utilities = stod(amount_str);
         }else if (category == "Groceries"){
-            array1[2] = stod(amount_str);
+            groceries = stod(amount_str);
         }else if (category == "Entertainment"){
-            array1[3] = stod(amount_str);
+            entertainment = stod(amount_str);
         }else if (category == "Transportation"){
-            array1[4] = stod(amount_str);
-        }else {
-            array1[5] = stod(amount_str);
+            transportation = stod(amount_str);
         }
 
         if (type == "Expense"){

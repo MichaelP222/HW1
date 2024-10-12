@@ -42,15 +42,15 @@ string readExpensesCSV(const string& inputFilename,
         getline(currentline, date, ',');
 
         if (category == "Rent"){
-            rent = stod(amount_str);
+            rent += stod(amount_str);
         }else if (category == "Utilities"){
-            utilities = stod(amount_str);
+            utilities += stod(amount_str);
         }else if (category == "Groceries"){
-            groceries = stod(amount_str);
+            groceries += stod(amount_str);
         }else if (category == "Entertainment"){
-            entertainment = stod(amount_str);
+            entertainment += stod(amount_str);
         }else if (category == "Transportation"){
-            transportation = stod(amount_str);
+            transportation += stod(amount_str);
         }
 
         if (type == "Expense"){

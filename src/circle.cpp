@@ -13,7 +13,7 @@ double radius(double x1, double y1, double x2, double y2) {
 }
 
 double circumference(double rad) {
-    double cir = rad * M_PI;
+    double cir = 2 * rad * M_PI;
     return cir;
 }
 

@@ -1,8 +1,8 @@
 // implement circle.cpp functions here.
 #include "../include/circle.h"
 #include <iostream>
-#define _USE_MATH_DEFINES
-#include <math.h>
+#include <cmath>
+#include <numbers>
 
 using namespace std;
 

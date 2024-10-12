@@ -1,0 +1,11 @@
+Script started on 2024-10-12 01:00:34+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="292" LINES="89"]
+[?2004hyinuop2@jupyter-yinuop2:/home/ics-home/45C/hw01-file-io-and-simple-functions-in-cpp-MichaelP222$ exit./hw01_circle g++ src/circle_main.cpp -o hw01_circle src/circle.o[14P-c src/circle.cpp -o[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l^[[A^[[A[?2004hyinuop2@jupyter-yinuop2:/home/ics-home/45C/hw01-file-io-and-simple-functions-in-cpp-MichaelP222$ g++ -c src/circle.cpp -o src/circle.oexit[K./hw01_circle g++ src/circle_main.cpp -o hw01_circle src/circle.o
+[?2004l[?2004hyinuop2@jupyter-yinuop2:/home/ics-home/45C/hw01-file-io-and-simple-functions-in-cpp-MichaelP222$ ./hw01_circle 
+[?2004l the radius between (4,1) and (-2,8) is equal to: 9.21954
+ the circumference of the circle defined by (4,1) and (-2,8) is equal to: 57.9281
+ the area of the circle defined by (4,1) and (-2,8) is equal to: 267.035 = 13
+[?2004hyinuop2@jupyter-yinuop2:/home/ics-home/45C/hw01-file-io-and-simple-functions-in-cpp-MichaelP222$ exit
+[?2004lexit
+
+Script done on 2024-10-12 01:00:57+00:00 [COMMAND_EXIT_CODE="0"]
